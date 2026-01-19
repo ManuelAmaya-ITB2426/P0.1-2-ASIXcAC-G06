@@ -1,8 +1,8 @@
-## 🧩 Análisis de requisitos técnicos y funcionales
+## Análisis de requisitos técnicos y funcionales
 
 ---
 
-## 📌 Contexto general
+## Contexto general
 
 Este análisis define qué debe hacer la aplicación y qué necesita a nivel técnico para funcionar correctamente. El objetivo es identificar las funcionalidades esperadas, los componentes necesarios y cómo se relacionan entre sí dentro de una arquitectura desplegada en AWS.
 
@@ -10,7 +10,7 @@ Este documento servirá como base para el diseño de la arquitectura y el despli
 
 ---
 
-## ⚙️ Requisitos funcionales
+## Requisitos funcionales
 
 La aplicación web deberá permitir el acceso de usuarios a través de un navegador web mediante protocolo HTTP/HTTPS. Los usuarios podrán visualizar contenido web generado dinámicamente a partir de código PHP y datos almacenados en una base de datos.
 
@@ -18,7 +18,7 @@ La aplicación deberá ser accesible desde Internet, responder de forma correcta
 
 ---
 
-## 🛠️ Requisitos técnicos
+## Requisitos técnicos
 
 La aplicación se desplegará sobre un servidor Linux en AWS, utilizando instancias EC2. Será necesario un servidor web NGINX para gestionar las peticiones HTTP y servir contenido estático.
 
@@ -28,7 +28,7 @@ El sistema deberá contar con conectividad de red adecuada dentro de AWS, permit
 
 ---
 
-## 🔗 Dependencias entre servicios
+## Dependencias entre servicios
 
 NGINX depende de PHP-FPM para procesar las peticiones que requieren ejecución de código PHP. PHP-FPM, a su vez, depende de MySQL para acceder a los datos almacenados.
 
@@ -38,7 +38,7 @@ Cada servicio cumple una función concreta y está claramente separado del resto
 
 ---
 
-## 🔄 Flujo de datos
+## Flujo de datos
 
 El flujo de funcionamiento comienza cuando un usuario realiza una petición desde su navegador. Esta petición llega al servidor NGINX, que decide si debe servir contenido estático o enviar la petición a PHP-FPM.
 
@@ -48,12 +48,12 @@ Este flujo garantiza una separación clara de responsabilidades y un funcionamie
 
 ---
 
-## 📦 Consideraciones de contenedorización
+## Consideraciones de contenedorización
 
 El uso de Docker permitirá ejecutar cada servicio de forma aislada, facilitando la gestión de dependencias y asegurando que el entorno sea consistente dentro de AWS. Esto simplifica el mantenimiento, las actualizaciones y una posible escalabilidad futura.
 
 ---
 
-## ✅ Conclusión
+## Conclusión
 
 Los requisitos definidos cubren las necesidades funcionales de la aplicación y establecen una base técnica sólida. La separación de servicios, el uso de tecnologías estándar y la orientación a AWS garantizan una arquitectura clara, mantenible y alineada con entornos profesionales.
