@@ -35,14 +35,14 @@
 ## 4. Instalacion i configuracion del servicio
 
 Para actualizar la bibliotecas o instalar programas en "Amazon Linux 2023" hay que substituir el comando de linux **apt** por **dnf**. Ya que no acepta la orden apt.
-    - **sudo dnf install mysql-server -y**
+- **sudo dnf install mysql-server -y**
 
 Una vez instalado el servicio requiere que se inicie i habilite manualmente.
-    - **sudo systemctl start mysqld**
-    - **sudo systemctl enable mysqld**
+- **sudo systemctl start mysqld**
+- **sudo systemctl enable mysqld**
 
 Para la configuracion inical de seguridad del servicio hay que ejecutar:
-    - **sudo mysql_secure_instalation**
+- **sudo mysql_secure_instalation**
 Al ejectuar el comando te da varias opciones las que se han seleccionado son las siguientes:
     - Assignar contraseña al usuario root.
     - Eliminacion de los usuarios anonimos.
@@ -55,18 +55,18 @@ Una vez terminado esto el servicio de base de datos esta listo para su uso.
 ## 5. Creacion de la Base de Datos
 
 Para acceder a al servicio para poder crear la base de datos se usa uno de estos comandos:
-    - **sudo mysql**
-    - **sudo -u root -p**
+- **sudo mysql**
+- **sudo -u root -p**
 
 Cuando se ha realizado la conexion lo primero es crear la base de datos que vamos a utilizar. Para crear la base de datos se usa este comando:
-    - **CREATE DATABASE extagram_db;**
+- **CREATE DATABASE extagram_db;**
 
 Para una base de datos nueva hay que crear un usuario administrador que tenga privileguios completos en ella. Para crear el usuario se ha usado el comando:
-    - **CREATE USER 'extagram_admin'@'%' IDENTIFIED BY 'contraseña_segura';**
+- **CREATE USER 'extagram_admin'@'%' IDENTIFIED BY 'contraseña_segura';**
 Una vez creado es un usuario comun para que tenga privilegios sobre una base de datos concreta hay que ejecutar:
-    - **GRANT ALL PRIVILEGES ON extagram_db.* TO 'extagram_admin'@'%';**
+- **GRANT ALL PRIVILEGES ON extagram_db.*** **TO 'extagram_admin'@'%';**
 Para hacerlos efectivos i permanentes finalmente hace falta ejecutar un ultimo comando:
-    - **FLUSH PRIVILEGES;**
+- **FLUSH PRIVILEGES;**
 Con esto se ha creado la base de datos, un usuario con privilegios i se han aplicado.
 
 ---
@@ -74,16 +74,16 @@ Con esto se ha creado la base de datos, un usuario con privilegios i se han apli
 ## 6. Creacion del esquema de base de datos
 
 Con la base de datos creada para poder crear tablas dentro primero hay que acceder a ella con este comando:
-    - **USE extagram_db;**
+- **USE extagram_db;**
 
 Para crear una tabla hay que darle un nombre pero tambien crear columnas donde se almacenaran los datos:
-    - **CREATE TABLE posts (**
-            **post TEXT NOT NULL,**
-            **photourl TEXT**
-        **);**
+- **CREATE TABLE posts (**
+    **post TEXT NOT NULL,**
+    **photourl TEXT**
+  **);**
 Con esta estructura podemos almacenar:
-    - El texto de cada publicacion.
-    - El nombre identificador de la imagen associada.
+- El texto de cada publicacion.
+- El nombre identificador de la imagen associada.
 
 Si se hicieran falta mas columnas o tablas se pueden crear a medida que aparezca la necessidad de ellas.
 
