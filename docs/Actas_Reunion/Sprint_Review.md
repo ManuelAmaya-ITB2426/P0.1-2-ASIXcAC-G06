@@ -1,6 +1,7 @@
 # Acta Sprint 1 Review - 19/01/2026
 
 **Fecha y hora:** Lunes, 19 de enero de 2026, a las 16:17 CET
+
 **Miembros en la reunion:** Manuel Amaya, Adrian Tamargo y Guim Ballve
 
 ## Plan inicial del equipo
