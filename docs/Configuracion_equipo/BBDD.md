@@ -28,7 +28,7 @@
 ## 3. Connexion a la instancia
 
 - Connexion por ssh.
-- Comando: ssh -i "labsuser.pem" ec2-user@<IP_PUBLICA>
+- Comando: **ssh -i "labsuser.pem" ec2-user@<IP_PUBLICA>**
 
 ---
 
