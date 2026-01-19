@@ -1,7 +1,7 @@
-# Acta Sprint Review - 19/01/2026
+# Acta Sprint 1 Review - 19/01/2026
 
 **Fecha y hora:** Lunes, 19 de enero de 2026, a las 16:17 CET
-**Miembros 
+**Miembros en la reunion:** Manuel Amaya, Adrian Tamargo y Guim Ballve
 
 ## Plan inicial del equipo
 Teníamos pensado retomar lo que dejamos antes de las vacaciones, desplegando y configurando los servicios en la nube según el plan de los sprints del proyecto P0.1 [file:1].
