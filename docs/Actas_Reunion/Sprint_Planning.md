@@ -8,5 +8,5 @@
 
 ## Tareas asignadas
 - **Cada miembro:** Responsabilidad total del contenido del proyecto, incluyendo todas las partes y custodia de los documentos.
-- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas) [file:1].
+- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y capturas de Proofhub.
