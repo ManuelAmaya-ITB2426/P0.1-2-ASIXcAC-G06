@@ -1,0 +1,91 @@
+# Desplegamento NGINX - Extagram Sprint 1
+
+## Objetivo Sprint 1
+
+## Instalación Paquetes
+
+```bash
+sudo dnf install nginx
+```
+![Instalación NGINX][../../media/cano_instalacion_nginx.png]
+
+Estructura Carpetas Web
+```text
+/var/www/extagram/
+├── src/              # PHP privado 
+│   ├── extagram.php  # Muestra posts + form
+├── static/           # Archivos fijos 
+│   ├── style.css
+│   └── preview.svg
+└── uploads/          # Fotos usuarios
+```
+
+Comandos aplicados:
+```bash
+sudo mkdir -p /var/www/extagram/{src,static,uploads}
+sudo chown -R nginx:nginx /var/www/extagram
+sudo chmod -R 755 /var/www/extagram
+```
+![Carpetas creadas][../../media/cano_creacion_carpetas.png]
+
+Configuración NGINX
+Archivo: /etc/nginx/conf.d/extagram.conf
+
+```text
+server {
+    listen 80;
+    server_name _;
+    root /var/www/extagram;
+    index extagram.php;
+
+    # Ruteo principal → src/extagram.php
+    location / { 
+        try_files $uri $uri/ /src/extagram.php?$query_string; 
+    }
+
+    # Cache estáticos 1 año
+    location /static/ { 
+        expires 1y; 
+        add_header Cache-Control "public, immutable"; 
+    }
+
+    # Fotos uploads
+    location /storage/ { 
+        alias /var/www/extagram/uploads/; 
+        autoindex off; expires 30d; 
+    }
+
+    # PHP-FPM socket
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_pass unix:/run/php-fpm/www.sock;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+}
+```
+![Config NGINX][../../media/cano_extagram]
+
+Activación:
+
+```bash
+sudo nginx -t && sudo systemctl enable --now nginx
+```
+![NGINX activo][../../media/cano_]
+
+PHP-FPM (ya configurado Amazon Linux)
+Socket: /run/php-fpm/www.sock (nginx:nginx)
+Config: /etc/php-fpm.d/www.conf 
+
+```bash
+sudo systemctl enable --now php-fpm
+sudo systemctl status php-fpm
+```
+
+Estado Actual
+```text
+NGINX v1.26.0 corriendo puerto 80
+Estructura src/static/uploads perfecta
+Config Sprint 1 completa
+Pendiente: style.css / preview.svg en static/
+URLs de Prueba
+```
