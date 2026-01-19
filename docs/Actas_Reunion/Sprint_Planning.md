@@ -1,10 +1,10 @@
-# Acta Reunió Sprint Planning - 16/12/2025
+# Acta Reunión Sprint Planning - 16/12/2025
 
-**Data i hora:** Hoy, 16 de diciembre de 2025, a las 15:00 CET [file:1]
+**Fecha y hora:** Hoy, 16 de diciembre de 2025, a las 15:00 CET [file:1]
 
-**Objectiu de la setmana complert:** Hoy a las 15:00 el objetivo de esta semana ha sido dejar todo claro y repartido entre los miembros del grupo, iniciar la organización principal, tanto en Proofhub como en GitHub [file:1][file:2].
+**Objetivo de la semana cumplido:** Hoy a las 15:00 el objetivo de esta semana ha sido dejar todo claro y repartido entre los miembros del grupo, iniciar la organización principal, tanto en Proofhub como en GitHub [file:1][file:2].
 
-## Tasques assignades
+## Tareas asignadas
 - **Cada miembro:** Responsabilidad total del contenido del proyecto, incluyendo todas las partes y custodia de los documentos [file:1].
 - **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas) [file:1].
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y capturas de Proofhub [file:1].
