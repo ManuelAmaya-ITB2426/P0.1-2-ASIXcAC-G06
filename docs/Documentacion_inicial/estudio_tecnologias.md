@@ -1,8 +1,8 @@
-## 🚀 Estudio de tecnologías disponibles
+## Estudio de tecnologías disponibles
 
 ---
 
-## 🧩 Contexto del proyecto
+## Contexto del proyecto
 
 El proyecto se basará en el despliegue de una aplicación web directamente sobre la infraestructura de **Amazon Web Services (AWS)**, utilizando un entorno servidor Linux. Todo el desarrollo y la configuración la realizaremos desde el inicio en AWS, evitando migraciones posteriores y trabajando desde el primer momento con un entorno real de producción.
 
@@ -15,7 +15,7 @@ La selección de tecnologías la haremos teniendo en cuenta cuatro criterios pri
 
 ---
 
-## 🌐 Servidor web: NGINX vs Apache
+## Servidor web: NGINX vs Apache
 
 Apache y NGINX han sido y siguen siendo los dos servidores web más utilizados. Ambos tienen pros y contras. Apache es muy flexible, muy documentado y sencillo de configurar, lo que facilita el mantenimiento. Sin embargo, su modelo basado en procesos consume más recursos y puede presentar problemas de rendimiento cuando hay muchas conexiones simultáneas.
 
@@ -25,7 +25,7 @@ Por lo cual en el proyecto usaremos **NGINX**, ya que ofrece mejor rendimiento, 
 
 ---
 
-## ⚙️ Ejecución de PHP: PHP-FPM
+## Ejecución de PHP: PHP-FPM
 
 PHP-FPM gestiona un conjunto de procesos PHP persistentes que se reutilizan, evitando crear un proceso nuevo por cada petición. Esto mejora notablemente el rendimiento y la estabilidad del sistema. Además, permite definir límites de memoria, número de procesos y usuarios, ayudando a controlar el consumo de recursos y reforzando la seguridad.
 
@@ -39,14 +39,14 @@ Cuando una petición requiere ejecutar código PHP, NGINX la redirige a PHP-FPM.
 
 ---
 
-## 🗄️ Sistema gestor de bases de datos: MySQL
+## Sistema gestor de bases de datos: MySQL
 
 MySQL es un sistema gestor de bases de datos que se utiliza ampliamente en el entorno profesional y en aplicaciones web. Es estable, eficiente y compatible con Linux y con servicios desplegados en AWS.
 Para el proyecto no necesitaremos una base de datos compleja, por lo que MySQL es la mejor opción.
 
 ---
 
-## 📦 Contenerización: Docker
+## Contenerización: Docker
 
 Docker nos va a permitir encapsular servicios y dependencias en contenedores, facilitando la consistencia del entorno y la portabilidad dentro de AWS, es decir, que la aplicación siempre se ejecutará con las mismas versiones y configuraciones, evitando errores por diferencias entre servidores, y que esos mismos servicios se pueden mover, replicar o escalar en instancias diferentes sin tener que reinstalar ni reconfigurar nada.
 
@@ -56,11 +56,11 @@ Todo esto no es esencial para el proyecto, pero su uso aporta una mejora en la o
 
 ---
 
-## 🧱 Stack tecnológico final
+## Stack tecnológico final
 
 Las tecnologías elegidas permiten que la aplicación funcione de forma rápida, segura y ordenada. Cada parte se encarga de una función concreta: mostrar la web, ejecutar la aplicación y guardar los datos. Además, todo está preparado para crecer y funcionar correctamente dentro de AWS.:
 
-- 🌐 **NGINX** como servidor web  
-- ⚙️ **PHP-FPM** para la ejecución de PHP  
-- 🗄️ **MySQL** como sistema gestor de bases de datos  
-- 📦 **Docker** como herramienta de contenerización (opcional)
+- **NGINX** como servidor web  
+- **PHP-FPM** para la ejecución de PHP  
+- **MySQL** como sistema gestor de bases de datos  
+- **Docker** como herramienta de contenerización (opcional)
