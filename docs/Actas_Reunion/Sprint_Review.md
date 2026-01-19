@@ -13,4 +13,4 @@ Tuvimos la mala suerte de perder la cuenta principal del creador del repositorio
 ## Decisión final del equipo
 Se ha solucionado todo: nuevo GitHub clonado, acceso restaurado y SSH arreglado; ya hemos podido configurar. Todo lo que nos queda se dejará para el siguiente sprint, para avanzar en los sprints sin más interrupciones.
 
-![Carpetas creadas][../../media/cano_proofhub_sprint1.png]
+![Proofhub al final del sprint][../../media/cano_proofhub_sprint1.png]
