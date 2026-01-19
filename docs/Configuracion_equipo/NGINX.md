@@ -7,7 +7,7 @@
 ```bash
 sudo dnf install nginx
 ```
-![Instalación NGINX][../../media/cano_instalacion_nginx.png]
+![Instalación NGINX][../../media/NGINX/cano_instalacion_nginx.png]
 
 Estructura Carpetas Web
 ```text
@@ -26,7 +26,7 @@ sudo mkdir -p /var/www/extagram/{src,static,uploads}
 sudo chown -R nginx:nginx /var/www/extagram
 sudo chmod -R 755 /var/www/extagram
 ```
-![Carpetas creadas][../../media/cano_creacion_carpetas.png]
+![Carpetas creadas][../../media/NGINX/cano_creacion_carpetas.png]
 
 Configuración NGINX
 Archivo: /etc/nginx/conf.d/extagram.conf
@@ -63,14 +63,14 @@ server {
     }
 }
 ```
-![Config NGINX][../../media/cano_extagram]
+![Config NGINX][../../media/NGINX/cano_extagram]
 
 Activación:
 
 ```bash
 sudo nginx -t && sudo systemctl enable --now nginx
 ```
-![NGINX activo][../../media/cano_]
+![NGINX activo][../../media/NGINX/cano_enable_start_nginx.png]
 
 PHP-FPM (ya configurado Amazon Linux)
 Socket: /run/php-fpm/www.sock (nginx:nginx)
