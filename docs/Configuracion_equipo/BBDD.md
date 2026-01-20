@@ -88,3 +88,17 @@ Con esta estructura podemos almacenar:
 Si se hicieran falta mas columnas o tablas se pueden crear a medida que aparezca la necessidad de ellas.
 
 ---
+
+## 7. Creacion del fallback de las imagenes
+
+Para que la base de datos pueda almacenar las imagenes hay que habilitar nuevas columnas en la tabla posts.
+De estas nuevas columnas dos son del tipo **VARCHAR** y una tercera tiene que ser del tipo **BLOB** que permite almacenar datos binarios.
+
+- **ALTER TABLE posts**
+  **ADD COLUMN filename VARCHAR(255),**
+  **ADD COLUMN mimetype VARCHAR(255),**
+  **ADD COLUMN filedata LONGBLOB;**
+
+Una vez echo esto hay que modificar el php para que en caso de error de la carpeta, almacene las imagenes en la base de datos.
+
+---
