@@ -60,7 +60,7 @@ Todo esto no es esencial para el proyecto, pero su uso aporta una mejora en la o
 
 Las tecnologías elegidas permiten que la aplicación funcione de forma rápida, segura y ordenada. Cada parte se encarga de una función concreta: mostrar la web, ejecutar la aplicación y guardar los datos. Además, todo está preparado para crecer y funcionar correctamente dentro de AWS.:
 
-- **NGINX** como servidor web  
-- **PHP-FPM** para la ejecución de PHP  
-- **MySQL** como sistema gestor de bases de datos  
-- **Docker** como herramienta de contenerización (opcional)
+- **NGINX** como servidor web.
+- **PHP-FPM** para la ejecución de PHP.
+- **MySQL** como sistema gestor de bases de datos.
+- **Docker** como herramienta de contenerización.
