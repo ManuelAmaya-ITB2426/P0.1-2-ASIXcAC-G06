@@ -1,6 +1,7 @@
 # Desplegamento NGINX - Extagram Sprint 1
 
 ## Objetivo Sprint 1
+Tener activo servicio NGINX: Servidor web/proxy rápido y ligero para miles de conexiones simultáneas. En Extagram: sirve estáticos, proxy PHP-FPM, /storage/ → uploads.
 
 ## Instalación Paquetes
 
@@ -14,6 +15,7 @@ Estructura Carpetas Web
 /var/www/extagram/
 ├── src/              # PHP privado 
 │   ├── extagram.php  # Muestra posts + form
+│   ├── upload.php
 ├── static/           # Archivos fijos 
 │   ├── style.css
 │   └── preview.svg
@@ -30,6 +32,7 @@ sudo chmod -R 755 /var/www/extagram
 
 Configuración NGINX
 Archivo: /etc/nginx/conf.d/extagram.conf
+Configuración específica Extagram incluida automáticamente por nginx.conf (include /etc/nginx/conf.d/*.conf;). Define root /var/www/extagram, rutas /static/ (CSS/SVG), /storage/ → /uploads/ (imágenes), proxy *.php → PHP-FPM. Cada app su archivo separado, recarga sin downtime.
 
 ```text
 server {
