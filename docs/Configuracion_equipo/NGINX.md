@@ -8,7 +8,6 @@ Tener activo servicio NGINX: Servidor web/proxy rápido y ligero para miles de c
 ```bash
 sudo dnf install nginx
 ```
-![Instalación NGINX][../../media/NGINX/cano_instalacion_nginx.png]
 
 Estructura Carpetas Web
 ```text
@@ -28,7 +27,6 @@ sudo mkdir -p /var/www/extagram/{src,static,uploads}
 sudo chown -R nginx:nginx /var/www/extagram
 sudo chmod -R 755 /var/www/extagram
 ```
-![Carpetas creadas][../../media/NGINX/cano_creacion_carpetas.png]
 
 Configuración NGINX
 Archivo: /etc/nginx/conf.d/extagram.conf
@@ -66,14 +64,12 @@ server {
     }
 }
 ```
-![Config NGINX][../../media/NGINX/cano_extagram]
 
 Activación:
 
 ```bash
 sudo nginx -t && sudo systemctl enable --now nginx
 ```
-![NGINX activo][../../media/NGINX/cano_enable_start_nginx.png]
 
 Estado Actual
 ```text
