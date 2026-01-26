@@ -75,15 +75,6 @@ sudo nginx -t && sudo systemctl enable --now nginx
 ```
 ![NGINX activo][../../media/NGINX/cano_enable_start_nginx.png]
 
-PHP-FPM (ya configurado Amazon Linux)
-Socket: /run/php-fpm/www.sock (nginx:nginx)
-Config: /etc/php-fpm.d/www.conf 
-
-```bash
-sudo systemctl enable --now php-fpm
-sudo systemctl status php-fpm
-```
-
 Estado Actual
 ```text
 NGINX v1.26.0 corriendo puerto 80
