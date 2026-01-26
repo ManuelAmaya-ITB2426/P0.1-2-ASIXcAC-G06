@@ -12,7 +12,7 @@
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y capturas de Proofhub.
 
 
-# Acta Reunión Sprint 2 Planning - 26/1/2026
+# Acta Reunión Sprint 2 Planning - 19/1/2026
 
 **Fecha y hora:** Hoy, 26 de enero de 2026, a las 15:20 CET
 
