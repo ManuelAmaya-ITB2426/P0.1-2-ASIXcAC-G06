@@ -34,9 +34,9 @@
 
 **Miembros en la reunion:** Manuel Amaya y Guim Ballve
 
-**Objetivo de la sprint:** El objetivo sera mejorar lo que nos ha quedado de la web, la carga de imagenes y el CSS, mas la documentacion.
+**Objetivo de la sprint:** Mejorar lo pendiente de la web (carga de imágenes y CSS), más la documentación
 
 ## Tareas asignadas
-- **Cada miembro:** Reparto de tareas pendiantes, mas la documentacion.
+- **Cada miembro:** Reparto de tareas pendientes, más la documentación
 - **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
-- **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y demas.
+- **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y demás.
