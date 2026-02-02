@@ -11,6 +11,7 @@
 - **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y capturas de Proofhub.
 
+---
 
 # Acta Reunión Sprint 2 Planning - 19/1/2026
 
@@ -18,9 +19,24 @@
 
 **Miembros en la reunion:** Manuel Amaya y Guim Ballve
 
-**Objetivo de la semana:** El objetivo de esta semana sera empezar con dockerizar y poder terminarlo, este sprint lo empezaremos con un miembro menos, lo que puede retrasar el trabajo, vamos con una semana de retraso, pero se podra lograr el objetivo si nos mantenemos firmes.
+**Objetivo de la sprint:** El objetivo de esta semana sera empezar con dockerizar y poder terminarlo, este sprint lo empezaremos con un miembro menos, lo que puede retrasar el trabajo, vamos con una semana de retraso, pero se podra lograr el objetivo si nos mantenemos firmes.
 
 ## Tareas asignadas
 - **Cada miembro:** Reparto de contenedores entre ambos miembros.
-- - **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
+- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y capturas de Proofhub.
+
+---
+
+# Acta Reunión Sprint 3 Planning - 02/02/2026
+
+**Fecha y hora:** Hoy, 02 de febrero de 2026, a las 17:39 CET
+
+**Miembros en la reunion:** Manuel Amaya y Guim Ballve
+
+**Objetivo de la sprint:** El objetivo sera mejorar lo que nos ha quedado de la web, la carga de imagenes y el CSS, mas la documentacion.
+
+## Tareas asignadas
+- **Cada miembro:** Reparto de tareas pendiantes, mas la documentacion.
+- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
+- **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y demas.
