@@ -13,7 +13,7 @@ Tuvimos la mala suerte de perder la cuenta principal del creador del repositorio
 ## Decisión final del equipo
 Se ha solucionado todo: nuevo GitHub clonado, acceso restaurado y SSH arreglado; ya hemos podido configurar. Todo lo que nos queda se dejará para el siguiente sprint, para avanzar en los sprints sin más interrupciones.
 
-![Proofhub al final del sprint][../../media/cano_proofhub_sprint1.png]
+![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint1.png)
 
 
 # Acta Sprint 2 Review - 02/02/2026
@@ -33,4 +33,4 @@ Tuvimos muchos problemas de código, sobre todo con el S1 y S4; también el tema
 ## Decisión final del equipo
 Se pudo reorganizar el Proofhub de forma correcta, pudimos iniciar la web (aún con algunos problemas) y después hacerla funcional y, sobre todo, pudimos adaptarnos a las circunstancias sin atrasar mucho el proyecto.
 
-![Proofhub al final del sprint][../../media/cano_proofhub_sprint2.png]
+![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint2.png)
