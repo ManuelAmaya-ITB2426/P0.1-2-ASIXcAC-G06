@@ -12,7 +12,7 @@ Para habilitar el uso sin sudo se usa el comando:
 
 ---
 
-## 2. Estructura de directorios pra S7
+## 2. Estructura de directorios para S7
 
 Para almacenar los archivos de los contenedores se ha creado un directorio padre para ellos llamdo Sprint2 donde estaran los subdirectorios de todos los contenedores para mantenerlos en un lugar organizados.
 - **sudo mkdir -p sprint2**
@@ -37,7 +37,7 @@ El contenido de el Dockerfile esta en la carpeta de media.
 ## 3. Contruccion del Contenedor
 
 Para poder construir el contenedor hay que posicionarse en el directorio **sprint2/S7** una vez alli se ejecutar el comando para construir el contenedor:
-- **docker build -t s7 .**
+- **docker build -t s7-mysql .**
 
 Para ejecutarlo hay que usar el comando **docker run** combinado con opciones para la persistencia i el puerto de la base de datos ya que previamente se ha apagado i dehabilitado el servicio de la maquina host:
 - **sudo run -d \ ***
@@ -51,7 +51,7 @@ Un cop creat cal copmrovar que esta en up amb la comanda **docker ps** que lista
 ## 4. Comprovaciones desde el contenedor
 
 Para entrar al contenedor directamente en el servicio de base de datos que es lo que nos interesa para comprovar que se ha creado gracias al archivo **init.sql** se usa el comando:
-- **docker exec -it s7 mysql -u root -p**
+- **docker exec -it s7-mysql mysql -u root -p**
 
 La clave del root esta especificada en el Dockerfile del contenedor. Esto abrira directament el terminal del servicio de base de datos dentro del contenedor. 
 
