@@ -6,6 +6,12 @@ Aquí planteamos el proyecto antes de comenzar: análisis previo, tecnologías a
 - [Estudio previo de tecnologías](docs/Documentacion_inicial/estudio_tecnologias.md)
 - [Análisis de requisitos técnicos y funcionales](docs/Documentacion_inicial/requisitos_tecnicos.md)
 
+## Actas de reunión
+Información de los Sprint Reviews y Sprint Plannings.
+
+- [Sprint Planning](docs/Actas_Reunion/Sprint_Planning.md)
+- [Sprint Review](docs/Actas_Reunion/Sprint_Review.md)
+
 ## Configuración del equipo
 Aquí está toda la información de la configuración implementada sobre el equipo de los diferentes servicios.
 
