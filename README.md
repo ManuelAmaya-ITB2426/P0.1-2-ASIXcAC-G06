@@ -12,7 +12,7 @@ Aqui estara toda la informacion de la configuracion implementada sobre el equipo
 - [Configuracion Base de datos](docs/Configuracion_equipo/BBDD.md)
 - [Configuracion servidor web](docs/Configuracion_equipo/NGINX.md)
 - [Configuracion PHP-FMP](docs/Configuracion_equipo/PHP-FMP.md)
-- [Configuracion Scripts](docs/Configuracion_equipo/Scripts_PHP.md)
+- [Configuracion Scripts](docs/Configuracion_equipo/Scrpts_PHP.md)
 
 ## Contenedores:
 Aqui la configuracion e informacion de los contenedores implementados.
