@@ -20,8 +20,20 @@
 
 ### 2.- Distribucion de la red
 
-- Los contenedores con dos o mas redes forman parte de la red de servicios que son s2, s3, s4, s5 i s6.
-- Los contenedores s2, s3 i s4 son los unicos que tienen conectividad en las tres redes creadas para poder connectar tanto con el proxy de s1 como con la bbdd de s7.
+La infraestructura se ha diseñado utilizando múltiples redes Docker con el objetivo de separar los diferentes tipos de tráfico:
 
+- **Red de acceso (proxy)**: permite la comunicación entre el proxy inverso (s1-nginx) y los servicios backend.
+- **Red de servicios**: conecta los servicios PHP y los servidores de contenido.
+- **Red de datos**: dedicada exclusivamente a la comunicación con la base de datos MySQL.
+
+Los contenedores **s2, s3 y s4** están conectados a las tres redes, ya que necesitan:
+- Recibir peticiones desde el proxy **s1-nginx**
+- Acceder a la base de datos **s7-mysql**
+- Comunicarse con los servicios de almacenamiento y contenido estático
+
+Los contenedores **s5 y s6** solo tienen conectividad con el proxy y la red de servicios, ya que no requieren acceso directo a la base de datos.
+
+El contenedor **s7-mysql** únicamente está conectado a la red de datos con s2,s3 i s4 para limitar su exposición y mejorar la seguridad.
 
 ---
+
