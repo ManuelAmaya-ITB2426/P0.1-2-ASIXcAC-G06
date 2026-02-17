@@ -15,6 +15,7 @@ Se ha solucionado todo: nuevo GitHub clonado, acceso restaurado y SSH arreglado;
 
 ![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint1.png)
 
+---
 
 # Acta Sprint 2 Review - 02/02/2026
 
@@ -34,3 +35,26 @@ Tuvimos muchos problemas de código, sobre todo con el S1 y S4; también el tema
 Se pudo reorganizar el Proofhub de forma correcta, pudimos iniciar la web (aún con algunos problemas) y después hacerla funcional y, sobre todo, pudimos adaptarnos a las circunstancias sin atrasar mucho el proyecto.
 
 ![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint2.png)
+
+---
+
+# Acta Sprint 3 Review - 10/02/2026
+
+**Fecha y hora:** Lunes, 10 de febrero de 2026, a las 16:49 CET
+
+**Miembros en la reunion:** Manuel Amaya y Guim Ballve
+
+## Plan inicial del equipo
+Mejorar aquellas tareas pendientes de la web.
+
+## Feedback y problemas
+Tuvimos muchos problemas de código, en específico con **extagram.php** y **upload.php**, ya que no cargaban las imágenes correctamente: a veces cargaba alguna, otras veces no. Una vez arreglado eso, surgió un nuevo problema con la subida de contenido.
+
+Las subidas se hacían correctamente y se almacenaban tanto en la base de datos como en los archivos correspondientes, pero la web no llamaba las imágenes, por lo que no las mostraba. Esto, aunque con dificultad, pudimos arreglarlo el último día, haciendo la web funcional.
+
+Solo nos quedó la parte de documentación, ya que aún quedaban cosas por documentar en GitHub.
+
+## Decisión final del equipo
+Prepararse para el **Proyecto 0.2** y terminar la documentación de GitHub.
+
+![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint3.png)
