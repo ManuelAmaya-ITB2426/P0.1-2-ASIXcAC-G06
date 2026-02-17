@@ -40,3 +40,18 @@
 - **Cada miembro:** Reparto de tareas pendientes, más la documentación
 - **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub y demás.
+
+---
+
+# Acta Reunión Sprint 4 Planning - 17/02/2026
+
+**Fecha y hora:** Hoy, 17 de febrero de 2026, a las 16:00 CET
+
+**Miembros en la reunion:** Guim Ballvé y Manuel Amaya
+
+**Objetivo del sprint:** Securizar la infraestructura al maximo possible
+
+## Tareas asignadas
+- **Cada miembro:** Reparto de tareas i documentación
+- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
+- **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub.
