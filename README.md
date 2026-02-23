@@ -5,6 +5,7 @@ Aquí planteamos el proyecto antes de comenzar: análisis previo, tecnologías a
 - [Análisis del proyecto](docs/Documentacion_inicial/Analisis_Del_Proyecto.md)
 - [Estudio previo de tecnologías](docs/Documentacion_inicial/estudio_tecnologias.md)
 - [Análisis de requisitos técnicos y funcionales](docs/Documentacion_inicial/requisitos_tecnicos.md)
+- [Segurización Infraestructura Extagram](docs/Documentacion_inicial/segurizacion.md)
 
 ## Actas de reunión
 Información de los Sprint Reviews y Sprint Plannings.
