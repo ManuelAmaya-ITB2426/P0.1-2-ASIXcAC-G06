@@ -31,4 +31,4 @@ Aquí la configuración e información de los contenedores implementados.
 - [S4 - Servicio de Carga de Archivos/Upload (PHP-FPM)](docs/Configuracion_equipo/Docker/S4.md)
 - [S5 - Servidor de Almacenamiento de Imágenes (Nginx)](docs/Configuracion_equipo/Docker/S5.md)
 - [S6 - Servidor de Contenido Estático (Nginx)](docs/Configuracion_equipo/Docker/S6.md)
-- [S7 - Servidor de Base de Datos (MySQL)](docs/Configuracion_equipo/Docker/ContenedorS7.md)
+- [S7 - Servidor de Base de Datos (MySQL)](docs/Configuracion_equipo/Docker/S7.md)
