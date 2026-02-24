@@ -58,3 +58,26 @@ Solo nos quedó la parte de documentación, ya que aún quedaban cosas por docum
 Prepararse para el **Proyecto 0.2** y terminar la documentación de GitHub.
 
 ![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint3.png)
+
+---
+
+# Acta Sprint 4 Review - 24/02/2026
+
+**Fecha y hora:** Lunes, 24 de febrero de 2026, a las 16:49 CET
+
+**Miembros en la reunion:** Manuel Amaya.
+
+## Plan inicial del equipo
+Securizar la web (aplicando metodos especificados en la documentación).
+
+## Feedback y problemas
+Tuvimos muchos problemas de código, en específico con **extagram.php** y **upload.php**, ya que no cargaban las imágenes correctamente: a veces cargaba alguna, otras veces no. Una vez arreglado eso, surgió un nuevo problema con la subida de contenido.
+
+Las subidas se hacían correctamente y se almacenaban tanto en la base de datos como en los archivos correspondientes, pero la web no llamaba las imágenes, por lo que no las mostraba. Esto, aunque con dificultad, pudimos arreglarlo el último día, haciendo la web funcional.
+
+Solo nos quedó la parte de documentación, ya que aún quedaban cosas por documentar en GitHub.
+
+## Decisión final del equipo
+Prepararse para el **Proyecto 0.2** y terminar la documentación de GitHub.
+
+![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint3.png)
