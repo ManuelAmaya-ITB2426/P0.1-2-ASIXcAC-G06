@@ -55,3 +55,18 @@
 - **Cada miembro:** Reparto de tareas i documentación
 - **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub.
+
+---
+
+# Acta Reunión Sprint 5 Planning - 03/03/2026
+
+**Fecha y hora:** Hoy, 03 de marzo de 2026, a las 16:00 CET
+
+**Miembros en la reunion:** Guim Ballvé y Manuel Amaya
+
+**Objetivo del sprint:** Crear sistema de monitorizacion de la web y terminar tareas que quedaron pendiente
+
+## Tareas asignadas
+- **Cada miembro:** Reparto de tareas i documentación
+- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
+- **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub.
