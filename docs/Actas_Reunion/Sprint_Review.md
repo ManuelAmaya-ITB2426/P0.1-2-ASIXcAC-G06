@@ -71,13 +71,13 @@ Prepararse para el **Proyecto 0.2** y terminar la documentación de GitHub.
 Securizar la web (aplicando metodos especificados en la documentación).
 
 ## Feedback y problemas
-Tuvimos muchos problemas de código, en específico con **extagram.php** y **upload.php**, ya que no cargaban las imágenes correctamente: a veces cargaba alguna, otras veces no. Una vez arreglado eso, surgió un nuevo problema con la subida de contenido.
+Nuestro mayor problema fue la implementación del firewall y WAF. Tuvimos que migrar de la herramienta elegida inicialmente a otra, ya que la primera era incompatible con las reglas establecidas en los Docker, pisándolas o ignorándolas. La implementación del WAF costó al principio, pero pronto lo tuvimos más controlado.
 
-Las subidas se hacían correctamente y se almacenaban tanto en la base de datos como en los archivos correspondientes, pero la web no llamaba las imágenes, por lo que no las mostraba. Esto, aunque con dificultad, pudimos arreglarlo el último día, haciendo la web funcional.
+Pudimos arreglar ambos problemas (firewall y WAF) antes de terminar el sprint.
 
-Solo nos quedó la parte de documentación, ya que aún quedaban cosas por documentar en GitHub.
+También tuvimos que dejar un par de tareas para el siguiente sprint, ya que por temas personales uno de los dos miembros del grupo no pudo asistir a la mitad del sprint.
 
 ## Decisión final del equipo
-Prepararse para el **Proyecto 0.2** y terminar la documentación de GitHub.
+Prepararse para el siguiente sprint y terminar las tareas pendientes.
 
-![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint3.png)
+![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint4.png)
