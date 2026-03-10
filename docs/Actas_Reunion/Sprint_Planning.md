@@ -64,9 +64,9 @@
 
 **Miembros en la reunion:** Guim Ballvé y Manuel Amaya
 
-**Objetivo del sprint:** Crear sistema de monitorizacion de la web y terminar tareas que quedaron pendiente
+**Objetivo del sprint:** Crear sistema de monitorizacion de la web, terminar tareas que quedaron pendientes y hacer la presentación final.
 
 ## Tareas asignadas
-- **Cada miembro:** Reparto de tareas i documentación
-- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas).
+- **Cada miembro:** Reparto de tareas i documentación.
+- **Equipo colectivo:** Configuración de GitHub (repositorio, control de versiones: add, commit, push, pull) y Proofhub (dashboard, backlog, tareas con responsables y fechas) y presentación final.
 - **Próximos pasos:** Documentar reuniones con acta Markdown commitada a GitHub.
