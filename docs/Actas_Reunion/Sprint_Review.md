@@ -81,3 +81,22 @@ También tuvimos que dejar un par de tareas para el siguiente sprint, ya que por
 Prepararse para el siguiente sprint y terminar las tareas pendientes.
 
 ![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint4.png)
+
+---
+
+# Acta Sprint 5 Review - 10/02/2026
+
+**Fecha y hora:** Martes, 10 de febrero de 2026, a las 16:49 CET
+
+**Miembros en la reunion:** Manuel Amaya y Guim Gallve.
+
+## Plan inicial del equipo
+Monitorizar el equipo y todos los contenedores.
+
+## Feedback y problemas
+Nuestro mayor problema fue que algunos contenedores, por causas que desconocemos, no funcionaban. No quedó tiempo para agregar el sistema de logs, pero al final pudimos acabar el proyecto a tiempo y completo, a excepción del sistema de logs.
+
+## Decisión final del equipo
+Prepararse para la **presentación** y terminarla.
+
+![Proofhub al final del sprint](../../media/Actas/cano_proofhub_sprint5.png)
